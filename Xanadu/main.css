@@ -1,4 +1,4 @@
-.header {width: 100%; height: 6vh; padding: 3px; display: grid; grid-template-columns: 5% 20% auto; background-image: url("../assets/static/barra_superior.png"); position: -webkit-sticky; position: sticky; top: 0; z-index: 3 }
+.header {width: 100%; height: 6vh; padding: 3px; display: grid; grid-template-columns: 5% 20% auto; background-image: url("./assets/barra_superior.png"); position: -webkit-sticky; position: sticky; top: 0; z-index: 3 }
 
 .home { width: 60%; margin-left: 2%; cursor: pointer }
 .home:hover { filter: grayscale(100%); -webkit-filter: grayscale(100%); cursor: pointer }
@@ -25,4 +25,13 @@
 .header-close { width: 20%; cursor: pointer; margin-left: 5% }
 .header-close:hover { filter: grayscale(100%); -webkit-filter: grayscale(100%) }
 .header-sound { width: 20%; cursor: pointer; margin-left: 5% }
-.header-sound:hover { filter: grayscale(100%); -webkit-filter: grayscale(100%) } 
+.header-sound:hover { filter: grayscale(100%); -webkit-filter: grayscale(100%) }
+
+@font-face { font-family: "principal"; src: url("./assets/fonts/TCCEB.TTF") }
+
+body { font-family: 'principal', Arial, sans-serif; font-weight:normal; font-style:normal; color: white; background-image: url("./assets/background.png"); margin: 0%; padding: 0%}
+.main-container{ justify-content: left}
+.main-button{ font-size: 16px; color: white; border: 2px solid white; border-radius: 15px; background-color: transparent}
+.main-button:hover{ color: cyan; border-color: cyan; }
+.main-button:active{ color: black; border-color: black; }
+.video-container { background-image: url("./assets/static/video.png"); width: 50%; height: 75vh; margin: auto; background-size: 100% 100%; background-repeat: no-repeat; }
