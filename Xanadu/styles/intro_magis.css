@@ -1,0 +1,6 @@
+.intro-container { display: grid; grid-template-columns: 25% auto; margin-top: 3vh;}
+.video { height: 75vh; margin-left: 5%; }
+.button-container { margin-left: 40%; margin-top: 6vh }
+.animacion-button { width: 15%; margin-right: 5% }
+
+p { font-size: 28px; text-align: justify; padding-left: 70px; }
