@@ -7,25 +7,26 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="../styles/main.css">
   <link rel="stylesheet" href="../styles/escritorio.css">
+  <script src="../scripts/escritorio.js" defer></script>
 </head>
 <body>
     <span class="titulo">Escritorio Digital</span>
     <button class="main-button magis"><a>Al Santuario</a></button>
     <div class="grid-container">
         <div class="rol-container grid-item">
-            <img src="../assets/avatar/chico-ninguno.png">
-            <p>No tienes un rol aún, selecciona al Vidente o al Juglar.</p>
+            <img id="avatar-img" src="">
+            <p id="avatar-text"></p>
         </div>
         
         <div class="grid-item nav-container">
             <div>
-                <div class="rol-button"><img src="../assets/iconos/vidente.png"><p>Vidente</p></div>
-                <div class="rol-button"><img src="../assets/iconos/juglar.png"><p>Juglar</p></div>
+                <div class="rol-button"><a href="intro_vidente.html" target="main_viewport"><img src="../assets/iconos/vidente.png"><p>Vidente</p></a></div>
+                <div class="rol-button"><a href="intro_juglar.html" target="main_viewport"><img src="../assets/iconos/juglar.png"><p>Juglar</p></a></div>
                 <div class="rol-button"><img src="../assets/iconos/taller.png"><p>Taller</p></div>
             </div>
 
             <div>
-                <div class="rol-button"><img src="../assets/iconos/laboratorio.png"><p>Laboratorio</p></div>
+                <div class="rol-button"><a href="intro_laboratorio.html" target="main_viewport"><img src="../assets/iconos/laboratorio.png"><p>Laboratorio</p></a></div>
                 <div class="rol-button"><img src="../assets/iconos/reportero.png"><p>Reportero</p></div>
                 <div class="rol-button"><img src="../assets/iconos/critico.png"><p>Crítico</p></div>
             </div>

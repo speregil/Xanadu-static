@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Escritorio Digital</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/juglar.css">
+  <script src="../scripts/juglar.js" defer></script>
+</head>
+<body>
+    <div class='juglar-container'>
+        <div class="juglar-reto">
+            <p id="perfil"></p>
+            <p id="reto"></p>
+        </div>
+        <div class='juglar-folders'>
+            <img class="juglar-folder" src="../assets/h-folder.png" onclick="on_RetosA(0)">
+            <img class="juglar-folder" src="../assets/j-folder.png" onclick="on_RetosA(1)">
+            <img class="juglar-folder" src="../assets/l-folder.png" onclick="on_RetosA(2)">
+            <img class="juglar-folder" src="../assets/n-folder.png" onclick="on_RetosB()">
+            <img class="juglar-folder" src="../assets/p-folder.png" onclick="on_RetosC()">
+        </div>
+    
+        <div class="juglar-opciones">
+            <button  class="juglar-button">Retos Básicos</button>
+            <button  class="juglar-button">Retos del Master</button>
+            <button class="juglar-button">Aceptar Reto</button>
+            <a href="../intro/escritorio.html" target="main_viewport" ><button  class="juglar-button">Al Escritorio</button></a>
+        </div>
+    </div>
+</body>
